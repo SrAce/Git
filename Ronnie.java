@@ -7,8 +7,7 @@ public class Porcentagem{
 		valor = Float.parseFloat(JOptionPane.showInputDialog(null,"R$ Valor do produto"));  
         dinheiros = Float.parseFloat(JOptionPane.showInputDialog(null,"Juros"));
         formula = valor*(1+(dinheiros/100));
-        JOptionPane.showMessageDialog("Dinheiros final = "+formula" com "+dinheiros"% de juros.");
-
+        JOptionPane.showMessageDialog(null, "Dinheiros final = "+formula+" com "+dinheiros+"% de juros.");
 
 	}
 }
